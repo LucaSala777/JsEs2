@@ -20,7 +20,11 @@
     <script src="es2.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
-      console.log($("div")[0]);
+      console.log($("div")[0].innerHTML);
+      $("body").append($("<h3>gg</h3>"));
+      $("#span1").html("CUCU");
+      $("#div1").attr("style","background-color: rgb(90, 120, 3)");
+      $("#div1").html("<h1>TI AVEVO DETTO DI NON CLICCARLO!</h1>");
     </script>
   </body>
 </html>
